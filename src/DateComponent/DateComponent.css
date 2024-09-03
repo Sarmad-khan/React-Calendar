@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+
+  
+
+  .top{
+    background-color: #efefef;
+    padding-block: 10px;
+    padding-inline: 20px;
+    display:flex;
+    align-items: center;
+  }
+  .top button{
+    width:2.5vw;
+    margin-right: 3px;
+    padding-block:4px;
+    outline: none;
+    border: none;
+    background-color: #1a7f6d;
+    color:#fff;
+    border-radius: 4px;
+  }
+
+  .mid{
+    display: flex;
+    justify-content: space-between;
+    background-color:#efefef ;
+    margin-top: 6px;
+    padding-block:17px;
+    padding-left: 20px;
+
+
+    
+  }
+  .mid select{
+    padding: 7px;
+    border-radius: 4px;
+    background-color: #fff;
+    
+    border: none;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .mid h2{
+    font-size: 20px;
+    
+   }
+  .mid h3{
+    font-size: 14px;
+    color:#1a7f6d;
+  }
+  
+
+  .date-component-container {
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    
+  }
+  .calendar{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    padding: 10px 50px;
+    
+
+  }
+  
+  
+  .date-info {
+    margin-bottom: 25px;
+  }
+  
+  .date-info h3,
+  .date-info h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+ 
+  .date-info p {
+    margin-bottom: 5px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  
+  .date-info .holiday {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  
+  .date-info hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  .days{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    background-color: #1a7f6d;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 50px;
+  }
+  
+
+
+  
